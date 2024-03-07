@@ -1,0 +1,24 @@
+{
+    "intents": [
+        {
+            "tags": "greetings",
+            "patterns": ["hi", "hello", "hey"],
+            "responses": ["hi back", "hey", "hello"]
+        },
+        {
+            "tags": "end",
+            "patterns": ["bye", "later", "byeee"],
+            "responses": ["okay, bye", "see you later", "byeee"]
+        },
+        {
+            "tags": "convo",
+            "patterns": ["I want to talk", "I don't feel that good", "can we talk?", "not that great", "bad"],
+            "responses": ["sure, what happened today?"]
+        },
+        {
+            "tags": "verbal",
+            "patterns": [""],
+            "responses": ["it's okay, the day has ended and you have somehow managed it. that's greatttt"]
+        }
+    ]
+}
